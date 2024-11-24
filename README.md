@@ -68,4 +68,4 @@ Join our discussions on Reddit (Insert link)
 Contribute to this project on GitHub and become part of our journey!
 Lumé Coin – Empowering Transactions, Connecting the World.
 
-Does this align with your vision? Let me know if you’d like adjustments or additional details!
+![Build Status](https://github.com/OMGSOFTWARE/LUM-COIN/actions/workflows/ci.yml/badge.svg)
