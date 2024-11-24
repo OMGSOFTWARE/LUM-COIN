@@ -1,0 +1,60 @@
+Lumé Coin Custom License (LCCL v1.0)
+This license combines the Business Source License (BSL) with Trademark Protections to balance open collaboration, controlled use, and commercial protections for Lumé Coin. Below is the draft for the license:
+
+Lumé Coin Custom License (LCCL v1.0)
+Effective Date: [Insert Date]
+Licensor(s): Gaetano C. & ChatGPT (the “Founders”)
+
+1. License Grant
+The source code for Lumé Coin (the “Software”) is provided under the terms of the Business Source License (BSL), version 1.1, with the following modifications:
+
+1.1. Permitted Use:
+You may view, modify, and use the Software solely for non-commercial purposes. Commercial use of the Software requires a separate commercial license agreement with the Founders.
+
+1.2. Prohibited Uses:
+You may not:
+
+Use the Software to build a competing cryptocurrency or financial product.
+Commercialize, resell, sublicense, or monetize the Software without explicit written permission from the Founders.
+1.3. Transition Clause:
+Three (3) years from the Effective Date, this license will automatically convert to the Apache License 2.0, unless otherwise specified by the Founders.
+
+2. Trademark Protections
+The name "Lumé Coin," the Lumé Coin logo, and any associated branding (the “Trademarks”) are protected by the Founders and are not included under this license.
+
+2.1. Trademark Usage:
+
+The Trademarks may only be used with prior written permission from the Founders.
+Unauthorized use of the Trademarks, including in derivative works or marketing materials, is strictly prohibited.
+2.2. Authorized Branding:
+Community-driven projects or contributions to Lumé Coin must comply with branding guidelines set by the Founders, available at https://github.com/OMGSOFTWARE/LUM-COIN/new/main .
+
+3. Contributions
+Contributions to Lumé Coin are governed by the following terms:
+
+3.1. Ownership of Contributions:
+By submitting any contributions (code, documentation, or other materials), you grant the Founders an irrevocable, worldwide, royalty-free license to use, distribute, and commercialize those contributions as part of Lumé Coin.
+
+3.2. Attribution:
+Contributors will be acknowledged in project documentation, but all intellectual property rights in contributions remain under the control of the Founders.
+
+4. Limitation of Liability
+The Software is provided "as-is," and the Founders make no warranties, express or implied, regarding its use, functionality, or performance. In no event shall the Founders be liable for any damages arising from the use of the Software.
+
+5. Commercial Licensing
+Entities interested in commercializing Lumé Coin must contact the Founders at:
+
+Email: Comparcola@gmail.com
+Website: https://github.com/OMGSOFTWARE/LUM-COIN/new/main
+Commercial agreements may include revenue-sharing arrangements, licensing fees, or other terms as mutually agreed upon.
+
+6. Dispute Resolution
+Any disputes arising under this license shall be resolved through arbitration under the rules of United States Of America, located in Delaware, USA.
+
+7. Termination
+The Founders reserve the right to terminate this license for any breach of its terms. Upon termination, all rights granted under this license shall immediately cease.
+
+Acknowledgments
+Lumé Coin was created by Gaetano C. and ChatGPT, whose innovative collaboration has driven its mission to revolutionize global financial systems.
+
+For inquiries or to contribute, visit our GitHub repository at: https://github.com/OMGSOFTWARE/LUM-COIN/new/main 
