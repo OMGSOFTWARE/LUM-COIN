@@ -1,4 +1,8 @@
-branches:
+name: CI Workflow
+
+on:
+  push:
+    branches:
       - main
   pull_request:
     branches:
@@ -30,16 +34,19 @@ jobs:
       # Step 5: Lint Code
       - name: Lint Code
         run: npm run lint
-            - name: Setup Go environment
-  uses: actions/setup-go@v5.1.0
-  with:
-    # The Go version to download (if necessary) and use. Supports semver spec and ranges. Be sure to enclose this option in single quotation marks.
-    go-version: # optional
-    # Path to the go.mod or go.work file.
-    go-version-file: # optional
-    # Set this option to true if you want the action to always check for the latest available version that satisfies the version spec
-    check-latest: # optional
-    # Used to pull Go distributions from go-versions. Since there's a default, this is typically not supplied by the user. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting.
-    token: # optional, default is ${{ github.server_url == 'https://github.com' && github.token || '' }}
-    # Used to specify whether caching is needed. Set to true, if you'd like to enable caching.
-    cache: # optional
+
+      # Step 6: Set up Go environment
+      - name: Setup Go environment
+        uses: actions/setup-go@v5.1.0
+        with:
+          # The Go version to download (if necessary) and use. Supports semver spec and ranges. Be sure to enclose this option in single quotation marks.
+          go-version: '1.18'  # Customize Go version as needed
+          # Path to the go.mod or go.work file (optional)
+          go-version-file: 'go.mod'  # Customize this based on your project structure
+          # Set this option to true if you want the action to always check for the latest available version that satisfies the version spec
+          check-latest: true
+          # Used to pull Go distributions from go-versions (optional, typically not required)
+          token: ${{ github.token }}
+          # Used to specify whether caching is needed (optional)
+          cache: true
+
